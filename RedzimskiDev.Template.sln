@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedzimskiDev.Template.Domai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedzimskiDev.Template.Infrastructure", "src\RedzimskiDev.Template.Infrastructure\RedzimskiDev.Template.Infrastructure.csproj", "{9E417BC8-6465-4CF5-8D1E-39A486A79A64}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F8758F07-10EE-4546-AA99-B40DF34279CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedzimskiDev.Template.Tests", "tests\RedzimskiDev.Template.Tests\RedzimskiDev.Template.Tests.csproj", "{41631721-B2D3-4333-89BD-9B064823447A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,7 @@ Global
 		{3A04F9BF-03E3-46E2-B4F9-44D3C2C7AEB4} = {A6CDFD66-D7E8-4619-BA58-EB7F8B250616}
 		{7FD48D78-D7DB-4F6D-88F5-456395F284D8} = {A6CDFD66-D7E8-4619-BA58-EB7F8B250616}
 		{9E417BC8-6465-4CF5-8D1E-39A486A79A64} = {A6CDFD66-D7E8-4619-BA58-EB7F8B250616}
+		{41631721-B2D3-4333-89BD-9B064823447A} = {F8758F07-10EE-4546-AA99-B40DF34279CF}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3C515AA4-FEBA-4EFA-A993-0BDEE6C87E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -38,5 +43,9 @@ Global
 		{9E417BC8-6465-4CF5-8D1E-39A486A79A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E417BC8-6465-4CF5-8D1E-39A486A79A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E417BC8-6465-4CF5-8D1E-39A486A79A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41631721-B2D3-4333-89BD-9B064823447A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41631721-B2D3-4333-89BD-9B064823447A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41631721-B2D3-4333-89BD-9B064823447A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41631721-B2D3-4333-89BD-9B064823447A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
