@@ -1,7 +1,12 @@
+using RedzimskiDev.Template.Api;
+using RedzimskiDev.Template.Application;
+using RedzimskiDev.Template.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddApi()
+    .AddApplication()
+    .AddInfrastructure();
 
 var app = builder.Build();
 
