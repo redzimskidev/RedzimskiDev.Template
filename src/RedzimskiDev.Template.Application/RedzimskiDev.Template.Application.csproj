@@ -10,4 +10,9 @@
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\RedzimskiDev.Template.Domain\RedzimskiDev.Template.Domain.csproj" />
+      <ProjectReference Include="..\RedzimskiDev.Template.Infrastructure\RedzimskiDev.Template.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>

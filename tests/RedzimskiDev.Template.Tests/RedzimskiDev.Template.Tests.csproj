@@ -26,4 +26,11 @@
         <Using Include="Xunit"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\RedzimskiDev.Template.Api\RedzimskiDev.Template.Api.csproj" />
+      <ProjectReference Include="..\..\src\RedzimskiDev.Template.Application\RedzimskiDev.Template.Application.csproj" />
+      <ProjectReference Include="..\..\src\RedzimskiDev.Template.Domain\RedzimskiDev.Template.Domain.csproj" />
+      <ProjectReference Include="..\..\src\RedzimskiDev.Template.Infrastructure\RedzimskiDev.Template.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>
