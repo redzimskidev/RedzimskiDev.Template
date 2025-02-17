@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "redzimski.dev",
+  "classifications": [
+    "Web",
+    "API",
+    "Clean Architecture"
+  ],
+  "identity": "RedzimskiDev.Template.CSharp",
+  "name": "RedzimskiDev API Starter",
+  "shortName": "redzimskidev",
+  "sourceName": "RedzimskiDev.Template",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "title": {
+      "type": "parameter",
+      "defaultValue": "Your",
+      "replaces": "RedzimskiDev Template"
+    },
+    "EnableHealthchecks": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true",
+      "description": "Include healthchecks"
+    },
+    "EnableDocker": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true",
+      "description": "Include Docker support"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "condition": "(!EnableDocker)",
+          "exclude": [
+            "**/Dockerfile"
+          ]
+        }
+      ]
+    }
+  ]
+}

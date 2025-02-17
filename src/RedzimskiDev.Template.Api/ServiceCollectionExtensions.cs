@@ -15,8 +15,10 @@ public static class ServiceCollectionExtensions
                     Title = "RedzimskiDev Template API"
                 });
         });
+#if (EnableHealthchecks)
         services.AddHealthChecks();
-
+#endif
+        
         return services;
     }
 }
