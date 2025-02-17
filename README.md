@@ -1,0 +1,1 @@
+This is a sample repository for a blogpost about .NET custom templates. If you'd like to read the blogpost, you can find it [here](https://redzimski.dev/posts/save_time_with_custom_project_templates/).
